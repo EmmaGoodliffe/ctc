@@ -1,6 +1,6 @@
 <script lang="ts">
   import Card from "./Card.svelte";
-  import Icon from "./Icon.svelte";
+  import Item from "./Item.svelte";
 </script>
 
 <main class="w-full h-full bg-sky-100 text-sky-900">
@@ -89,67 +89,102 @@
       />
     </div>
 
-    <h2>
-      <Icon
-        url="https://img.icons8.com/ios-filled/24/000000/clothes.png"
-        altText="Merchandise"
-      />
-      Merchandise
-    </h2>
-    <a href="https://cracking-the-cryptic.creator-spring.com/">bla</a>
+    <Item
+      title="Merchandise"
+      url="https://cracking-the-cryptic.creator-spring.com/"
+      iconUrl="https://img.icons8.com/ios-filled/24/000000/clothes.png"
+    >
+      <p>Our merchandise (including birthday merch)</p>
+    </Item>
 
-    <h2>
-      <Icon
-        url="https://img.icons8.com/ios-filled/50/000000/discord-logo.png"
-        altText="Discord"
-      />
-      Discord
-    </h2>
-    <a href="https://discord.gg/BbN89j5">bla</a>
+    <Item
+      title="Discord"
+      url="https://discord.gg/BbN89j"
+      iconUrl="https://img.icons8.com/ios-filled/50/000000/discord-logo.png"
+    >
+      <p>CTC fan Discord server</p>
+    </Item>
 
-    <h2>
-      <Icon
-        url="https://img.icons8.com/material/24/000000/patreon.png"
-        altText="Patreon"
-      />
-      Patreon
-    </h2>
-    <a href="https://www.patreon.com/crackingthecryptic">bla</a>
+    <Item
+      title="Patreon"
+      url="https://www.patreon.com/crackingthecryptic"
+      iconUrl="https://img.icons8.com/material/24/000000/patreon.png"
+    >
+      <p>Join the community, support us and try our puzzle hunts</p>
+    </Item>
 
-    <h2>Our Back Catalogue</h2>
-    <p>
-      <a href="https://tinyurl.com/CTCCatalogue">Catalogue</a> (all categorised with
-      links)
-    </p>
+    <Item
+      title="Catalogue"
+      url="https://tinyurl.com/CTCCatalogue"
+      iconUrl="https://img.icons8.com/ios-filled/50/000000/summary-list.png"
+      ><p>Our back catalogue (all categorised with links)</p>
+    </Item>
 
-    <h3>Send us Puzzles to Solve or Contact us</h3>
-    <p>crackingthecryptic@gmail.com</p>
+    <Item
+      title="Email"
+      iconUrl="https://img.icons8.com/ios-filled/50/000000/email-open.png"
+    >
+      <p>
+        Send us puzzles to solve or contact us: <a
+          href="mailto:crackingthecryptic@gmail.com"
+          >crackingthecryptic@gmail.com</a
+        >
+      </p>
+    </Item>
 
-    <h3>Follow us</h3>
-    <p>
-      Twitter: #crypticcracking <a
-        href="https://www.instagram.com/crackingthecryptic/?hl=en"
-        >@crypticcracking</a
-      > Instagram (for how to solve daily clues from The Times)
-    </p>
+    <Item
+      title="Follow us"
+      iconUrl="https://img.icons8.com/ios-filled/30/000000/twitter.png"
+    >
+      <p>
+        Twitter:
+        <a href="https://twitter.com/crypticcracking">@crypticcracking</a>
+        <a
+          href="https://twitter.com/search?q=(%23crypticcracking)&src=typed_query"
+          >#crypticcracking</a
+        >
+      </p>
+      <p>
+        Instagram:
+        <a href="https://www.instagram.com/crackingthecryptic/?hl=en"
+          >@crypticcracking</a
+        > (for how to solve daily clues from The Times)
+      </p>
+    </Item>
 
-    <h3>Music</h3>
-    <p>
-      Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata no 16
-      ("Sonata Facile")
-    </p>
+    <Item
+      title="Music"
+      iconUrl="https://img.icons8.com/ios-filled/30/000000/musical-notes.png"
+    >
+      <p>
+        Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata no 16
+        ("Sonata Facile")
+      </p>
+    </Item>
 
-    <h3>Software</h3>
-    <p>
-      Play the puzzle in the video by clicking the link under the video (above).
-      Thanks to Sam Cappleman-Lynes and Sven Neumann for their work.
-    </p>
+    <Item
+      title="Software"
+      iconUrl="https://img.icons8.com/ios-glyphs/30/000000/web.png"
+    >
+      <p>
+        Play the puzzle in the video by clicking the link under the video
+        (above). Thanks to Sam Cappleman-Lynes and Sven Neumann for their work.
+      </p>
+    </Item>
 
-    <h3>Logo Design</h3>
-    <p>Melvyn Mainini</p>
+    <Item
+      title="Logo Design"
+      iconUrl="https://img.icons8.com/ios-filled/30/000000/design--v1.png"
+    >
+      <p>Melvyn Mainini</p>
+    </Item>
 
-    <h3>Opening Credits Design</h3>
-    <p>Joel Blundell</p>
+    <Item
+      title="Opening Credits Design"
+      iconUrl="https://img.icons8.com/ios-filled/30/000000/movie.png"
+    >
+      <p>Joel Blundell</p>
+    </Item>
 
     <h3>About us</h3>
     <p>
