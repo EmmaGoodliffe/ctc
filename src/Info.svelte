@@ -10,17 +10,17 @@
 <div class="hover:bg-white transition duration-200" class:cursor-pointer={url}>
   {#if url}
     <a href={url}>
-      <h2>
+      <h3>
         <Icon url={iconUrl} {altText} />
         {title}
-      </h2>
+      </h3>
       <slot />
     </a>
   {:else}
-    <h2>
+    <h3>
       <Icon url={iconUrl} {altText} />
       {title}
-    </h2>
+    </h3>
     <slot />
   {/if}
 </div>

@@ -1,126 +1,117 @@
 <script lang="ts">
   import Card from "./Card.svelte";
-  import Item from "./Item.svelte";
+  import Info from "./Info.svelte";
+  import Nav from "./Nav.svelte";
 </script>
 
-<main class="w-full h-full bg-sky-100 text-sky-900">
-  <nav class="flex justify-end px-4">
-    <a
-      href="#"
-      class="px-4 py-2 font-semibold hover:bg-sky-200 transition-all duration-[400ms] rounded mx-4 mt-2 underline underline-offset-1"
-      >Home</a
+<Nav />
+<main class="w-11/12 mx-auto">
+  <h1>Cracking the Cryptic</h1>
+  <p>
+    The PDF of our book is now available! If you backed the <a
+      href="https://www.kickstarter.com/projects/peterchayward/cracking-the-cryptics-greatest-hits/description"
+      >Kickstarter</a
+    >, go to the Jellybeangames email receipt, where there is a button to
+    download the pdf. Delivery of the physical book should be underway soon.
+  </p>
+
+  <section
+    class="flex flex-col content-center md:flex-row md:justify-around flex-wrap xl:w-2/3 mx-auto"
+    id="apps"
+  >
+    <Card
+      title="Sudoku Pad"
+      isNew={true}
+      windowsUrl="https://store.steampowered.com/app/1706870/Svens_SudokuPad/"
+      appleUrl="https://apps.apple.com/us/app/svens-sudokupad/id1570622073"
+      androidUrl="https://play.google.com/store/apps/details?id=com.svencodes.sudokupad"
     >
-    <a
-      href="#"
-      class="px-4 py-2 font-semibold hover:bg-sky-200 transition-all duration-[400ms] rounded mx-4 mt-2"
-      >FAQs</a
-    >
-  </nav>
-  <div class="w-11/12 mx-auto">
-    <h1 class="text-3xl font-semibold mb-6">Cracking the Cryptic</h1>
-    <p>
-      The PDF of our book is now available! If you backed the <a
-        href="https://www.kickstarter.com/projects/peterchayward/cracking-the-cryptics-greatest-hits/description"
-        >Kickstarter</a
-      >, go to the Jellybeangames email receipt, where there is a button to
-      download the pdf. Delivery of the physical book should be underway soon.
-    </p>
+      <p>Search for "SudokuPad" on Amazon</p>
+    </Card>
 
-    <div
-      class="flex flex-col content-center md:flex-row md:justify-around flex-wrap xl:w-2/3 mx-auto"
-    >
-      <Card
-        title="Sudoku Pad"
-        isNew={true}
-        windowsUrl="https://store.steampowered.com/app/1706870/Svens_SudokuPad/"
-        appleUrl="https://apps.apple.com/us/app/svens-sudokupad/id1570622073"
-        androidUrl="https://play.google.com/store/apps/details?id=com.svencodes.sudokupad"
-      >
-        <p>Search for "SudokuPad" on Amazon</p>
-      </Card>
+    <Card
+      title="Arrow Sudoku App"
+      isNew={true}
+      windowsUrl="https://store.steampowered.com/app/1613680/Arrow_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/arrow-sudoku/id1568407537"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ArrowSudoku"
+    />
 
-      <Card
-        title="Arrow Sudoku App"
-        isNew={true}
-        windowsUrl="https://store.steampowered.com/app/1613680/Arrow_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/arrow-sudoku/id1568407537"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ArrowSudoku"
-      />
+    <Card
+      title="Killer Sudoku App"
+      windowsUrl="https://store.steampowered.com/app/1471910/Killer_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/killer-sudoku-ctc/id1544165118"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.KillerSudoku&hl=en_US&gl=US"
+    />
 
-      <Card
-        title="Killer Sudoku App"
-        windowsUrl="https://store.steampowered.com/app/1471910/Killer_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/killer-sudoku-ctc/id1544165118"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.KillerSudoku&hl=en_US&gl=US"
-      />
+    <Card
+      title="Miracle Sudoku App"
+      windowsUrl="https://store.steampowered.com/app/1377260/Miracle_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/id1527363795"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.MiracleSudokuCTC"
+    />
+    <Card
+      title="Thermo Sudoku App"
+      windowsUrl="https://store.steampowered.com/app/1316390/Thermo_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/thermo-sudoku/id1513994223"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ThermoSudoku"
+    />
 
-      <Card
-        title="Miracle Sudoku App"
-        windowsUrl="https://store.steampowered.com/app/1377260/Miracle_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/id1527363795"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.MiracleSudokuCTC"
-      />
-      <Card
-        title="Thermo Sudoku App"
-        windowsUrl="https://store.steampowered.com/app/1316390/Thermo_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/thermo-sudoku/id1513994223"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ThermoSudoku"
-      />
+    <Card
+      title="Chess Sudoku App"
+      windowsUrl="https://store.steampowered.com/app/1250560/Chess_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/chess-sudoku/id1500654482?ls=1"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ChessSudoku&hl=en_US"
+    />
 
-      <Card
-        title="Chess Sudoku App"
-        windowsUrl="https://store.steampowered.com/app/1250560/Chess_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/chess-sudoku/id1500654482?ls=1"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ChessSudoku&hl=en_US"
-      />
+    <Card
+      title="Classic Sudoku App"
+      windowsUrl="https://store.steampowered.com/app/1188330/Classic_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/classic-sudoku/id1488838275?ls=1"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ClassicSudoku&hl=en_US"
+    />
 
-      <Card
-        title="Classic Sudoku App"
-        windowsUrl="https://store.steampowered.com/app/1188330/Classic_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/classic-sudoku/id1488838275?ls=1"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ClassicSudoku&hl=en_US"
-      />
+    <Card
+      title="Sandwich Sudoku App"
+      windowsUrl="https://store.steampowered.com/app/1117310/Sandwich_Sudoku/"
+      appleUrl="https://apps.apple.com/us/app/sandwich-sudoku/id1476116705?ls=1"
+      androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.SandwichSudoku"
+    />
+  </section>
 
-      <Card
-        title="Sandwich Sudoku App"
-        windowsUrl="https://store.steampowered.com/app/1117310/Sandwich_Sudoku/"
-        appleUrl="https://apps.apple.com/us/app/sandwich-sudoku/id1476116705?ls=1"
-        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.SandwichSudoku"
-      />
-    </div>
-
-    <Item
+  <section id="info">
+    <Info
       title="Merchandise"
       url="https://cracking-the-cryptic.creator-spring.com/"
       iconUrl="https://img.icons8.com/ios-filled/24/000000/clothes.png"
     >
       <p>Our merchandise (including birthday merch)</p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Discord"
       url="https://discord.gg/BbN89j"
       iconUrl="https://img.icons8.com/ios-filled/50/000000/discord-logo.png"
     >
       <p>CTC fan Discord server</p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Patreon"
       url="https://www.patreon.com/crackingthecryptic"
       iconUrl="https://img.icons8.com/material/24/000000/patreon.png"
     >
       <p>Join the community, support us and try our puzzle hunts</p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Catalogue"
       url="https://tinyurl.com/CTCCatalogue"
       iconUrl="https://img.icons8.com/ios-filled/50/000000/summary-list.png"
       ><p>Our back catalogue (all categorised with links)</p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Email"
       iconUrl="https://img.icons8.com/ios-filled/50/000000/email-open.png"
     >
@@ -130,9 +121,9 @@
           >crackingthecryptic@gmail.com</a
         >
       </p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Follow us"
       iconUrl="https://img.icons8.com/ios-filled/30/000000/twitter.png"
     >
@@ -150,9 +141,9 @@
           >@crypticcracking</a
         > (for how to solve daily clues from The Times)
       </p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Music"
       iconUrl="https://img.icons8.com/ios-filled/30/000000/musical-notes.png"
     >
@@ -160,9 +151,9 @@
         Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata no 16
         ("Sonata Facile")
       </p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Software"
       iconUrl="https://img.icons8.com/ios-glyphs/30/000000/web.png"
     >
@@ -170,23 +161,25 @@
         Play the puzzle in the video by clicking the link under the video
         (above). Thanks to Sam Cappleman-Lynes and Sven Neumann for their work.
       </p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Logo Design"
       iconUrl="https://img.icons8.com/ios-filled/30/000000/design--v1.png"
     >
       <p>Melvyn Mainini</p>
-    </Item>
+    </Info>
 
-    <Item
+    <Info
       title="Opening Credits Design"
       iconUrl="https://img.icons8.com/ios-filled/30/000000/movie.png"
     >
       <p>Joel Blundell</p>
-    </Item>
+    </Info>
+  </section>
 
-    <h3>About us</h3>
+  <section id="about">
+    <h2>About us</h2>
     <p>
       Hi! We're Simon Anthony and Mark Goodliffe, two of the UK's most
       enthusiastic puzzle solvers. We have both represented the UK at the World
@@ -197,7 +190,9 @@
       help your puzzle solving while also introducing you to some of the world's
       best puzzles.
     </p>
+  </section>
 
+  <section id="submissions">
     <h3>Guidance for Sudoku/Puzzle Submissions</h3>
     <p>
       If you create a puzzle/sudoku that you'd like to see us solve on Cracking
@@ -234,5 +229,9 @@
       to use the puzzle. At this point, by all means do submit another puzzle
       (but please do wait this one month period before doing so).
     </p>
-  </div>
+  </section>
+
+  <section id="faq">
+    <h2>FAQs</h2>
+  </section>
 </main>
