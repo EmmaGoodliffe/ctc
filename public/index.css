@@ -477,6 +477,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .block {
   display: block;
 }
@@ -487,6 +495,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-6 {
   height: 1.5rem;
+}
+
+.max-h-0 {
+  max-height: 0px;
+}
+
+.max-h-\[32rem\] {
+  max-height: 32rem;
 }
 
 .w-6 {
@@ -505,6 +521,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.scroll-m-\[26rem\] {
+  scroll-margin: 26rem;
 }
 
 .flex-col {
@@ -531,8 +551,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .border {
@@ -544,13 +572,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(7 89 133 / var(--tw-border-opacity));
 }
 
-.bg-sky-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(186 230 253 / var(--tw-bg-opacity));
+.border-bg-dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(212 212 216 / var(--tw-border-opacity));
 }
 
 .bg-inherit {
   background-color: inherit;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -573,6 +605,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -593,10 +635,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-filter);
 }
 
 .filter {
@@ -611,8 +652,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.duration-200 {
+.transition-\[max-height\] {
+  transition-property: max-height;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-1 {
   transition-duration: 200ms;
+}
+
+.duration-2 {
+  transition-duration: 400ms;
 }
 
 html {
@@ -623,34 +674,46 @@ body {
   height: 100%;
   width: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(12 74 110 / var(--tw-text-opacity));
+  color: rgb(82 82 91 / var(--tw-text-opacity));
 }
 
 h1 {
-  margin-bottom: 1.5rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  line-height: 1;
   font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
 h2 {
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
+header {
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
 nav a {
@@ -664,28 +727,35 @@ nav a {
   padding-top: 0.5rem;
   padding-bottom: 0.6em;
   font-weight: 600;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  line-height: 1.5rem;
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
 
 nav a:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+  opacity: 0.8;
 }
 
-p {
+p, ol li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  max-width: 48rem;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  line-height: 1.5rem;
 }
 
-p a {
+p a, ol li a {
   font-weight: 600;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-underline-offset: 1px;
+}
+
+ol {
+  padding-left: 1.5rem;
 }
 
 .new {
@@ -706,12 +776,56 @@ p a {
   color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
-.hover\:bg-white:hover {
+section {
+  margin-top: 2.5rem;
+  scroll-margin: 26rem;
+}
+
+@media (min-width: 640px) {
+  section {
+    scroll-margin: 5rem;
+  }
+}
+
+.hover\:bg-bg-dark:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:max-h-\[32rem\] {
+    max-height: 32rem;
+  }
+
+  .sm\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .sm\:scroll-m-16 {
+    scroll-margin: 4rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
   .md\:w-5\/12 {
     width: 41.666667%;
   }

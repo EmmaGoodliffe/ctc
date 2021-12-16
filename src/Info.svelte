@@ -7,9 +7,12 @@
   export let altText = title;
 </script>
 
-<div class="hover:bg-white transition duration-200" class:cursor-pointer={url}>
+<div
+  class="mt-6 px-6 py-4 hover:bg-bg-dark transition duration-1 rounded-sm"
+  class:cursor-pointer={url}
+>
   {#if url}
-    <a href={url}>
+    <a href={url} target="_blank">
       <h3>
         <Icon url={iconUrl} {altText} />
         {title}

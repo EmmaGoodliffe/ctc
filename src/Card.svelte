@@ -8,9 +8,7 @@
   export let androidUrl: string;
 </script>
 
-<div
-  class="bg-sky-200 shadow w-11/12 md:w-5/12 my-2 px-8 py-6"
->
+<div class="w-11/12 md:w-5/12 my-2 px-8 py-6 shadow border border-bg-dark">
   <header class="text-lg font-semibold mb-4 flex items-center">
     {title}
     {#if isNew}
