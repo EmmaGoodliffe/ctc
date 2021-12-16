@@ -1,4 +1,5 @@
 <script lang="ts">
+  import "./common";
   import Card from "./Card.svelte";
   import FAQ from "./FAQ.svelte";
   import Info from "./Info.svelte";
