@@ -1,0 +1,51 @@
+{
+  "name": "ctc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i src/index.css -o public/index.css",
+    "build:svelte": "rollup -c",
+    "build": "npm run build:css && npm run build:svelte",
+    "dev:css": "npm run build:css -- -w",
+    "dev:svelte": "npm run build:svelte -- -w",
+    "dev": "npm run dev:svelte",
+    "lint": "eslint \".\" --fix && prettier \".\" --write && svelte-check",
+    "start": "echo \"No start script yet\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaGoodliffe/ctc.git"
+  },
+  "author": "Emma Goodliffe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmaGoodliffe/ctc/issues"
+  },
+  "homepage": "https://github.com/EmmaGoodliffe/ctc#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@tsconfig/svelte": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.0.0-alpha.42",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-ts-exports": "^1.2.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.1",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^2.2.10",
+    "svelte-preprocess": "^4.10.0",
+    "tailwindcss": "^3.0.5",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.10"
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+  @apply text-lg font-semibold mt-6 mb-2 flex items-center;
+}
+
+p {
+  @apply my-2;
+}
+
+p a {
+  @apply font-semibold underline underline-offset-1;
+}
+
+.new {
+  @apply ml-2 text-red-600 text-xs h-full border border-red-600 rounded px-1 py-[0.2rem] uppercase;
+}
