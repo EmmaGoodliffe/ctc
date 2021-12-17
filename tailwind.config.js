@@ -6,10 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: colours.zinc[100],
-        "bg-dark": colours.zinc[300],
-        fg: colours.zinc[600],
-        "fg-dark": colours.zinc[700],
+        gs: {
+          1: colours.zinc[100],
+          2: colours.zinc[300],
+          3: colours.zinc[600],
+          4: colours.zinc[700],
+        },
       },
       transitionDuration: {
         1: "200ms",

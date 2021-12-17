@@ -7,27 +7,27 @@ html {
 }
 
 body {
-  @apply w-full h-full bg-bg text-fg;
+  @apply w-full h-full bg-gs-4 text-gs-2;
 }
 
 h1 {
-  @apply text-5xl font-semibold mt-4 mb-8 text-fg-dark;
+  @apply text-5xl font-semibold mt-4 mb-8;
 }
 
 h2 {
-  @apply text-3xl font-semibold mt-16 mb-4 text-fg-dark;
+  @apply text-3xl font-semibold mt-16 mb-4;
 }
 
 h3 {
-  @apply text-xl font-semibold my-2 flex items-center text-fg-dark;
+  @apply text-xl font-semibold my-2 flex items-center;
 }
 
-header {
-  @apply text-fg-dark;
+h1, h2, h3 , header {
+  @apply text-gs-1;
 }
 
 nav a {
-  @apply mx-2 my-2 px-4 pt-2 pb-[0.6em] leading-6 font-semibold hover:bg-bg-dark hover:opacity-80 transition-all duration-1 rounded;
+  @apply mx-2 my-2 px-4 pt-2 pb-[0.6em] leading-6 font-semibold hover:bg-gs-3 hover:opacity-80 transition-all duration-1 rounded;
 }
 
 p,

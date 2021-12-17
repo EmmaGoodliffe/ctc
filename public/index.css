@@ -610,11 +610,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(7 89 133 / var(--tw-border-opacity));
 }
 
-.border-bg-dark {
-  --tw-border-opacity: 1;
-  border-color: rgb(212 212 216 / var(--tw-border-opacity));
-}
-
 .bg-inherit {
   background-color: inherit;
 }
@@ -712,9 +707,9 @@ body {
   height: 100%;
   width: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(82 82 91 / var(--tw-text-opacity));
+  color: rgb(212 212 216 / var(--tw-text-opacity));
 }
 
 h1 {
@@ -723,8 +718,6 @@ h1 {
   font-size: 3rem;
   line-height: 1;
   font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
 h2 {
@@ -733,8 +726,6 @@ h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
 h3 {
@@ -745,13 +736,11 @@ h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
-header {
+h1, h2, h3, header {
   --tw-text-opacity: 1;
-  color: rgb(63 63 70 / var(--tw-text-opacity));
+  color: rgb(244 244 245 / var(--tw-text-opacity));
 }
 
 nav a {
@@ -773,7 +762,7 @@ nav a {
 
 nav a:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+  background-color: rgb(82 82 91 / var(--tw-bg-opacity));
   opacity: 0.8;
 }
 
@@ -825,9 +814,9 @@ section {
   }
 }
 
-.hover\:bg-bg-dark:hover {
+.hover\:bg-gs-3:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+  background-color: rgb(82 82 91 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
