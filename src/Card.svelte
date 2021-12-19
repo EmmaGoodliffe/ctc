@@ -8,7 +8,10 @@
   export let androidUrl: string;
 </script>
 
-<div class="w-11/12 md:w-5/12 my-2 px-8 py-6 shadow border border-bg-dark">
+<div
+  class="w-11/12 md:w-5/12 my-2 px-8 py-6 bg-dark shadow border-[3px] border-light rounded-md"
+  style="--tw-bg-opacity: 0.44;"
+>
   <header class="text-lg font-semibold mb-4 flex items-center">
     {title}
     {#if isNew}

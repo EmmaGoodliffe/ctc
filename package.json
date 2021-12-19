@@ -10,7 +10,7 @@
     "deploy": "npm run build && npm run lint && firebase deploy",
     "dev:css": "npm run build:css -- -w",
     "dev:svelte": "npm run build:svelte -- -w",
-    "dev": "npm run dev:svelte",
+    "dev": "npm run dev:svelte & npm run dev:css",
     "lint": "eslint \".\" --fix && prettier \".\" --write && svelte-check",
     "start": "echo \"No start script yet\"",
     "test": "echo \"Error: no test specified\" && exit 1"
