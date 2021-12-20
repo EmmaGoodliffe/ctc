@@ -5,15 +5,16 @@
 </script>
 
 <nav
-  class="px-4 sticky top-0 bg-inherit"
-  class:shadow
+  class="px-4 sticky top-0 bg-inherit z-10"
+  class:shadow-md={shadow}
   on:blur={() => (showDropDown = false)}
 >
-  <div class="sm:hidden p-4">
+  <div class="sm:hidden px-4 pt-6 pb-4">
     <svg
-      class="w-6 h-6 cursor-pointer"
       viewBox="0 0 100 80"
       on:click={() => (showDropDown = !showDropDown)}
+      class="w-6 h-6 cursor-pointer text-white"
+      style="fill: currentColor;"
     >
       <rect width="100" height="10" />
       <rect y="30" width="100" height="10" />

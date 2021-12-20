@@ -8,7 +8,10 @@
   export let androidUrl: string;
 </script>
 
-<div class="w-11/12 md:w-5/12 my-2 px-8 py-6 shadow border border-bg-dark">
+<div
+  class="w-11/12 md:w-5/12 my-2 px-8 py-6 bg-dark shadow border-[3px] border-light rounded-md"
+  style="--tw-bg-opacity: 0.44;"
+>
   <header class="text-lg font-semibold mb-4 flex items-center">
     {title}
     {#if isNew}
@@ -19,21 +22,21 @@
   <div class="flex flex-wrap text-sm">
     <Button
       altText="Windows logo"
-      iconUrl="https://img.icons8.com/ios-filled/50/000000/windows-10.png"
+      iconUrl="../public/img/icon/windows.svg"
       text="Windows via Steam"
       url={windowsUrl}
     />
 
     <Button
       altText="Apple logo"
-      iconUrl="https://img.icons8.com/ios-filled/30/000000/mac-os.png"
+      iconUrl="../public/img/icon/apple.svg"
       text="iOS"
       url={appleUrl}
     />
 
     <Button
       altText="Android logo"
-      iconUrl="https://img.icons8.com/ios-filled/50/000000/android-os.png"
+      iconUrl="../public/img/icon/android.svg"
       text="Android"
       url={androidUrl}
     />
