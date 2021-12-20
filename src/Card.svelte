@@ -22,21 +22,21 @@
   <div class="flex flex-wrap text-sm">
     <Button
       altText="Windows logo"
-      iconUrl="../public/img/icon/windows.svg"
+      iconUrl="./img/icon/windows.svg"
       text="Windows via Steam"
       url={windowsUrl}
     />
 
     <Button
       altText="Apple logo"
-      iconUrl="../public/img/icon/apple.svg"
+      iconUrl="./img/icon/apple.svg"
       text="iOS"
       url={appleUrl}
     />
 
     <Button
       altText="Android logo"
-      iconUrl="../public/img/icon/android.svg"
+      iconUrl="./img/icon/android.svg"
       text="Android"
       url={androidUrl}
     />

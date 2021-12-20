@@ -7,12 +7,12 @@
     "build:css": "tailwindcss -i src/index.css -o public/index.css",
     "build:svelte": "rollup -c",
     "build": "npm run build:css && npm run build:svelte",
-    "deploy": "npm run build && npm run lint && firebase deploy",
+    "deploy": "npm run lint && npm run build && firebase deploy",
     "dev:css": "npm run build:css -- -w",
     "dev:svelte": "npm run build:svelte -- -w",
     "dev": "npm run dev:svelte & npm run dev:css",
     "lint": "eslint \".\" --fix && prettier \".\" --write && svelte-check",
-    "start": "live-server --port=1234",
+    "start": "live-server public --port=1234",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -23,7 +23,7 @@
       class="w-11/12 sm:w-8/12 md:w-5/12 max-w-[768px] h-auto md:h-full object-cover mx-auto md:mx-0 mt-12 md:mt-24 bg-light translate-x-4 translate-y-4 group hover:translate-x-[1.1rem] hover:translate-y-[1.1rem] hover:rotate-1 transition"
     >
       <img
-        src="../public/img/lads.jpg"
+        src="./img/lads.jpg"
         alt="Simon Anthony and Mark Goodliffe"
         width="768"
         height="768"
@@ -38,12 +38,12 @@
   id="apps"
 >
   <img
-    src="../public/img/hexagon.svg"
+    src="./img/hexagon.svg"
     alt="Background Logo"
     class="hexagon top-48 md:top-24 -right-[25%] lg:-right-[10%]"
   />
   <img
-    src="../public/img/hexagon.svg"
+    src="./img/hexagon.svg"
     alt="Background Logo"
     class="hexagon bottom-48 md:bottom-24 -left-[25%] lg:-left-[10%]"
   />
@@ -110,12 +110,12 @@
 
 <section class="relative overflow-x-hidden" id="info">
   <img
-    src="../public/img/hexagon.svg"
+    src="./img/hexagon.svg"
     alt="Background Logo"
     class="hexagon top-48 md:top-24 -right-[25%] lg:-right-[10%]"
   />
   <img
-    src="../public/img/hexagon.svg"
+    src="./img/hexagon.svg"
     alt="Background Logo"
     class="hexagon bottom-48 md:bottom-24 -left-[25%] lg:-left-[10%]"
   />
@@ -124,31 +124,31 @@
     <Info
       title="Merchandise"
       url="https://cracking-the-cryptic.creator-spring.com/"
-      iconUrl="../public/img/icon/merch.svg"
+      iconUrl="./img/icon/merch.svg"
     >
       <p>Our merchandise (including birthday merch)</p>
     </Info>
     <Info
       title="Discord"
       url="https://discord.gg/BbN89j"
-      iconUrl="../public/img/icon/discord.svg"
+      iconUrl="./img/icon/discord.svg"
     >
       <p>CTC fan Discord server</p>
     </Info>
     <Info
       title="Patreon"
       url="https://www.patreon.com/crackingthecryptic"
-      iconUrl="../public/img/icon/patreon.svg"
+      iconUrl="./img/icon/patreon.svg"
     >
       <p>Join the community, support us and try our puzzle hunts</p>
     </Info>
     <Info
       title="Catalogue"
       url="https://tinyurl.com/CTCCatalogue"
-      iconUrl="../public/img/icon/contents.svg"
+      iconUrl="./img/icon/contents.svg"
       ><p>Our back catalogue (all categorised with links)</p>
     </Info>
-    <Info title="Email" iconUrl="../public/img/icon/email.svg">
+    <Info title="Email" iconUrl="./img/icon/email.svg">
       <p>
         Send us puzzles to solve or contact us: <a
           href="mailto:crackingthecryptic@gmail.com"
@@ -156,7 +156,7 @@
         >
       </p>
     </Info>
-    <Info title="Follow us" iconUrl="../public/img/icon/social_media.svg">
+    <Info title="Follow us" iconUrl="./img/icon/social_media.svg">
       <p>
         Twitter:
         <a href="https://twitter.com/crypticcracking">@crypticcracking</a>
@@ -172,22 +172,22 @@
         > (for how to solve daily clues from The Times)
       </p>
     </Info>
-    <Info title="Music" iconUrl="../public/img/icon/music.svg">
+    <Info title="Music" iconUrl="./img/icon/music.svg">
       <p>
         Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata no 16
         (&ldquo;Sonata Facile&rdquo;)
       </p>
     </Info>
-    <Info title="Software" iconUrl="../public/img/icon/software.svg">
+    <Info title="Software" iconUrl="./img/icon/software.svg">
       <p>
         Play the puzzle in the video by clicking the link under the video.
         Thanks to Sam Cappleman-Lynes and Sven Neumann for their work.
       </p>
     </Info>
-    <Info title="Logo Design" iconUrl="../public/img/icon/paint_brush.svg">
+    <Info title="Logo Design" iconUrl="./img/icon/paint_brush.svg">
       <p>Melvyn Mainini</p>
     </Info>
-    <Info title="Opening Credits Design" iconUrl="../public/img/icon/film.svg">
+    <Info title="Opening Credits Design" iconUrl="./img/icon/film.svg">
       <p>Joel Blundell</p>
     </Info>
   </div>
