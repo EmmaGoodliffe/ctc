@@ -34,7 +34,8 @@ nav a {
 
 p,
 ol li {
-  @apply my-2 font-serif max-w-3xl leading-6;
+  @apply my-2 font-serif max-w-3xl leading-6 lining-nums;
+  letter-spacing: 0.01rem;
 }
 
 p a,

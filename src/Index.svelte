@@ -124,34 +124,31 @@
     <Info
       title="Merchandise"
       url="https://cracking-the-cryptic.creator-spring.com/"
-      iconUrl="https://img.icons8.com/ios-filled/24/000000/clothes.png"
+      iconUrl="../public/img/icon/merch.svg"
     >
       <p>Our merchandise (including birthday merch)</p>
     </Info>
     <Info
       title="Discord"
       url="https://discord.gg/BbN89j"
-      iconUrl="https://img.icons8.com/ios-filled/50/000000/discord-logo.png"
+      iconUrl="../public/img/icon/discord.svg"
     >
       <p>CTC fan Discord server</p>
     </Info>
     <Info
       title="Patreon"
       url="https://www.patreon.com/crackingthecryptic"
-      iconUrl="https://img.icons8.com/material/24/000000/patreon.png"
+      iconUrl="../public/img/icon/patreon.svg"
     >
       <p>Join the community, support us and try our puzzle hunts</p>
     </Info>
     <Info
       title="Catalogue"
       url="https://tinyurl.com/CTCCatalogue"
-      iconUrl="https://img.icons8.com/ios-filled/50/000000/summary-list.png"
+      iconUrl="../public/img/icon/contents.svg"
       ><p>Our back catalogue (all categorised with links)</p>
     </Info>
-    <Info
-      title="Email"
-      iconUrl="https://img.icons8.com/ios-filled/50/000000/email-open.png"
-    >
+    <Info title="Email" iconUrl="../public/img/icon/email.svg">
       <p>
         Send us puzzles to solve or contact us: <a
           href="mailto:crackingthecryptic@gmail.com"
@@ -159,10 +156,7 @@
         >
       </p>
     </Info>
-    <Info
-      title="Follow us"
-      iconUrl="https://img.icons8.com/ios-filled/30/000000/twitter.png"
-    >
+    <Info title="Follow us" iconUrl="../public/img/icon/social_media.svg">
       <p>
         Twitter:
         <a href="https://twitter.com/crypticcracking">@crypticcracking</a>
@@ -178,34 +172,22 @@
         > (for how to solve daily clues from The Times)
       </p>
     </Info>
-    <Info
-      title="Music"
-      iconUrl="https://img.icons8.com/ios-filled/30/000000/musical-notes.png"
-    >
+    <Info title="Music" iconUrl="../public/img/icon/music.svg">
       <p>
         Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata no 16
         (&ldquo;Sonata Facile&rdquo;)
       </p>
     </Info>
-    <Info
-      title="Software"
-      iconUrl="https://img.icons8.com/ios-glyphs/30/000000/web.png"
-    >
+    <Info title="Software" iconUrl="../public/img/icon/software.svg">
       <p>
-        Play the puzzle in the video by clicking the link under the video
-        (above). Thanks to Sam Cappleman-Lynes and Sven Neumann for their work.
+        Play the puzzle in the video by clicking the link under the video.
+        Thanks to Sam Cappleman-Lynes and Sven Neumann for their work.
       </p>
     </Info>
-    <Info
-      title="Logo Design"
-      iconUrl="https://img.icons8.com/ios-filled/30/000000/design--v1.png"
-    >
+    <Info title="Logo Design" iconUrl="../public/img/icon/paint_brush.svg">
       <p>Melvyn Mainini</p>
     </Info>
-    <Info
-      title="Opening Credits Design"
-      iconUrl="https://img.icons8.com/ios-filled/30/000000/movie.png"
-    >
+    <Info title="Opening Credits Design" iconUrl="../public/img/icon/film.svg">
       <p>Joel Blundell</p>
     </Info>
   </div>
@@ -249,7 +231,7 @@
       3. Your puzzle email should include: i) the puzzle presented exactly as
       you'd like our testers to see it; ii) on a separate page, the solution.
       The solution should include a description of any difficult/interesting
-      steps in the logical path. [This is not for Simon & Mark but is to aid the
+      steps in the logical path. This is not for Simon & Mark but is to aid the
       testers. We endeavour not to publish puzzles that require
       bifurcation/guesswork so, if a tester feels their only chance to crack a
       difficult puzzle is using such techniques then it is very likely the
@@ -312,15 +294,16 @@
   </FAQ>
   <FAQ question="Can I send you a puzzle to solve?"
     ><p>
-      Definitely. But please see our puzzle submission guidelines [URL here].
-      They help our testers ensure the video content will be high quality. We
-      prefer not to receive crossword submissions at all.
+      Definitely. But please see our puzzle <a href="#submissions"
+        >submission guidelines
+      </a>. They help our testers ensure the video content will be high quality.
+      We prefer not to receive crossword submissions at all.
     </p>
   </FAQ>
   <FAQ question="What is the music at the beginning of the videos?"
     ><p>
       It&apos;s by Mozart, and is his Piano Sonata No. 16 in C Major,
-      &ldquo;Sonata facile&rdquo; K545
+      &ldquo;Sonata facile&rdquo; K545.
     </p>
   </FAQ>
   <FAQ

@@ -7,10 +7,7 @@
   export let altText = title;
 </script>
 
-<div
-  class="info"
-  class:cursor-pointer={url}
->
+<div class="info" class:cursor-pointer={url}>
   {#if url}
     <a href={url} target="_blank">
       <h3>

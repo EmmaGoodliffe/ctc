@@ -807,6 +807,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+*, ::before, ::after {
+  --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
+  --tw-font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(230 245 255 / var(--tw-text-opacity));
@@ -931,7 +940,10 @@ p, ol li {
   margin-bottom: 0.5rem;
   max-width: 48rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --tw-numeric-figure: lining-nums;
+  font-variant-numeric: var(--tw-font-variant-numeric);
   line-height: 1.5rem;
+  letter-spacing: 0.01rem;
 }
 
 p a, ol li a {

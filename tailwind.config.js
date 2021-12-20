@@ -38,6 +38,7 @@ module.exports = {
         light: grey[1],
         dark: grey[7],
         black: grey[8],
+        "jet-black": grey[9],
         red,
       },
       transitionDuration: {
