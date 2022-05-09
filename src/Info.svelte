@@ -10,10 +10,12 @@
 <div class="info" class:cursor-pointer={url}>
   {#if url}
     <a href={url} target="_blank">
-      <h3>
-        <Icon url={iconUrl} {altText} />
-        {title}
-      </h3>
+      {#if title}
+        <h3>
+          <Icon url={iconUrl} {altText} />
+          {title}
+        </h3>
+      {/if}
       <slot />
     </a>
   {:else}

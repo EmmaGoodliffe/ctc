@@ -9,15 +9,24 @@
 <Nav />
 <header class="contain">
   <div class="flex flex-col md:flex-row md:h-auto">
-    <div class="flex flex-col justify-between">
+    <div class="flex flex-col">
       <h1 class="mt-4 md:mt-2">Cracking the Cryptic</h1>
-      <p class="mt-12 md:mt-0 pr-12">
-        The PDF of our book is now available! If you backed the <a
-          href="https://www.kickstarter.com/projects/peterchayward/cracking-the-cryptics-greatest-hits/description"
-          >Kickstarter</a
-        >, go to the Jellybeangames email receipt, where there is a button to
-        download the pdf. Delivery of the physical book should be underway soon.
-      </p>
+      <div class="mt-4 md:mt-12 pr-12">
+        <p>
+          We are a Youtube channel called <a
+            href="https://www.youtube.com/c/CrackingTheCryptic"
+            target="_blank">Cracking the Cryptic</a
+          >.
+        </p>
+        <p>
+          The PDF of our book is now available! If you backed the <a
+            href="https://www.kickstarter.com/projects/peterchayward/cracking-the-cryptics-greatest-hits/description"
+            target="_blank">Kickstarter</a
+          >, go to the Jellybeangames email receipt, where there is a button to
+          download the pdf. Delivery of the physical book should be underway
+          soon.
+        </p>
+      </div>
     </div>
     <div
       class="w-11/12 sm:w-8/12 md:w-5/12 max-w-[768px] h-auto md:h-full object-cover mx-auto md:mx-0 mt-12 md:mt-24 bg-light translate-x-4 translate-y-4 group hover:translate-x-[1.1rem] hover:translate-y-[1.1rem] hover:rotate-1 transition"
@@ -33,10 +42,7 @@
   </div>
 </header>
 
-<section
-  class="scroll-m-[26rem] sm:scroll-m-16 relative overflow-x-hidden"
-  id="apps"
->
+<section class="scroll-m-[26rem] relative overflow-x-hidden" id="apps">
   <img
     src="./img/hexagon.svg"
     alt="Background Logo"
@@ -108,6 +114,35 @@
   </div>
 </section>
 
+<section class="contain" id="merch">
+  <h2>Merch</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore vero,
+    facere aspernatur dicta ullam tenetur aliquid temporibus? Illo temporibus
+    perferendis doloribus, sed praesentium officia incidunt rem velit voluptate
+    quia.
+  </p>
+  <Info
+    title=""
+    url="https://cracking-the-cryptic.creator-spring.com/"
+    iconUrl=""
+  >
+    <div class="flex flex-col sm:flex-row justify-between items-center">
+      <img src="./img/cap.png" alt="Cap" class="w-1/2 sm:w-1/3 max-w-[16rem]" />
+      <img
+        src="./img/bottle.png"
+        alt="Bottle"
+        class="w-1/2 sm:w-1/3 max-w-[16rem]"
+      />
+      <img
+        src="./img/hoodie.png"
+        alt="Hoodie"
+        class="w-1/2 sm:w-1/3 max-w-[16rem]"
+      />
+    </div>
+  </Info>
+</section>
+
 <section class="relative overflow-x-hidden" id="info">
   <img
     src="./img/hexagon.svg"
@@ -128,12 +163,14 @@
     >
       <p>Our merchandise (including birthday merch)</p>
     </Info>
-    <Info
-      title="Discord"
-      url="https://discord.gg/BbN89j"
-      iconUrl="./img/icon/discord.svg"
-    >
-      <p>CTC fan Discord server</p>
+    <Info title="Discord" iconUrl="./img/icon/discord.svg">
+      <p>
+        The <a href="https://discord.gg/BbN89j" target="_blank"
+          >CTC fan Discord server</a
+        >
+        has an
+        <a href="https://discord.gg/BbN89j5" target="_blank">ask-ctc</a> channel
+      </p>
     </Info>
     <Info
       title="Patreon"
@@ -156,19 +193,28 @@
         >
       </p>
     </Info>
+    <Info title="Snailmail" iconUrl="./img/icon/snail.svg">
+      <p>
+        Mark Goodliffe / Simon Anthony, Box 102, 56 Gloucester Road, London SW7
+        4UB
+      </p>
+    </Info>
     <Info title="Follow us" iconUrl="./img/icon/social_media.svg">
       <p>
         Twitter:
-        <a href="https://twitter.com/crypticcracking">@crypticcracking</a>
+        <a href="https://twitter.com/crypticcracking" target="_blank"
+          >@crypticcracking</a
+        >
         <a
           href="https://twitter.com/search?q=(%23crypticcracking)&src=typed_query"
-          >#crypticcracking</a
+          target="_blank">#crypticcracking</a
         >
       </p>
       <p>
         Instagram:
-        <a href="https://www.instagram.com/crackingthecryptic/?hl=en"
-          >@crypticcracking</a
+        <a
+          href="https://www.instagram.com/crackingthecryptic/?hl=en"
+          target="_blank">@crypticcracking</a
         > (for how to solve daily clues from The Times)
       </p>
     </Info>
@@ -284,8 +330,9 @@
   </FAQ>
   <FAQ question="Can we see a video about how to set a sudoku/puzzle? "
     ><p>
-      We have made one <a href="https://www.youtube.com/watch?v=936S5jWQTYE"
-        >video</a
+      We have made one <a
+        href="https://www.youtube.com/watch?v=936S5jWQTYE"
+        target="_blank">video</a
       > on setting a Sandwich Sudoku. We&apos;re very happy for the setters we admire
       to concentrate on setting entertaining puzzles for us to solve without necessarily
       recording how they do it, and there may be some aspect of &ldquo;We must not

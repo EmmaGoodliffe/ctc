@@ -31,6 +31,7 @@
   >
     <a href="#home">Home</a>
     <a href="#apps">Apps</a>
+    <a href="#merch">Merch</a>
     <a href="#info">Info</a>
     <a href="#about">About us</a>
     <a href="#submissions">Submissions</a>
