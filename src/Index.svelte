@@ -116,12 +116,7 @@
 
 <section class="contain" id="merch">
   <h2>Merch</h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolore vero,
-    facere aspernatur dicta ullam tenetur aliquid temporibus? Illo temporibus
-    perferendis doloribus, sed praesentium officia incidunt rem velit voluptate
-    quia.
-  </p>
+  <p>We have some great merchandise available.</p>
   <Info
     title=""
     url="https://cracking-the-cryptic.creator-spring.com/"
