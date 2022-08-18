@@ -158,14 +158,12 @@
     >
       <p>Our merchandise (including birthday merch)</p>
     </Info>
-    <Info title="Discord" iconUrl="./img/icon/discord.svg">
-      <p>
-        The <a href="https://discord.gg/BbN89j" target="_blank"
-          >CTC fan Discord server</a
-        >
-        has an
-        <a href="https://discord.gg/BbN89j5" target="_blank">ask-ctc</a> channel
-      </p>
+    <Info
+      title="Discord"
+      url="https://discord.gg/BbN89j5"
+      iconUrl="./img/icon/discord.svg"
+    >
+      <p>Become part of the CTC fan Discord server</p>
     </Info>
     <Info
       title="Patreon"
@@ -215,8 +213,8 @@
     </Info>
     <Info title="Music" iconUrl="./img/icon/music.svg">
       <p>
-        Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata no 16
-        (&ldquo;Sonata Facile&rdquo;)
+        Tim McCaskey (Guitar) or Lucy Audrin (Piano) plays Mozart's Sonata No.
+        16 (&ldquo;Sonata Facile&rdquo;)
       </p>
     </Info>
     <Info title="Software" iconUrl="./img/icon/software.svg">
