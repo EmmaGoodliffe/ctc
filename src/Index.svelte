@@ -59,8 +59,14 @@
       class="flex flex-col content-center md:flex-row md:justify-around flex-wrap xl:w-2/3 mx-auto"
     >
       <Card
-        title="Sudoku Pad"
+        title="The CTC App"
         isNew={true}
+        windowsUrl="https://store.steampowered.com/app/2085970/Cracking_the_Cryptic/"
+        appleUrl="https://apps.apple.com/us/app/cracking-the-cryptic/id1629992934"
+        androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.CrackingTheCryptic"
+      />
+      <Card
+        title="Sudoku Pad"
         windowsUrl="https://store.steampowered.com/app/1706870/Svens_SudokuPad/"
         appleUrl="https://apps.apple.com/us/app/svens-sudokupad/id1570622073"
         androidUrl="https://play.google.com/store/apps/details?id=com.svencodes.sudokupad"
@@ -69,7 +75,6 @@
       </Card>
       <Card
         title="Arrow Sudoku App"
-        isNew={true}
         windowsUrl="https://store.steampowered.com/app/1613680/Arrow_Sudoku/"
         appleUrl="https://apps.apple.com/us/app/arrow-sudoku/id1568407537"
         androidUrl="https://play.google.com/store/apps/details?id=com.StudioGoya.ArrowSudoku"

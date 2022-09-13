@@ -533,6 +533,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.static {
+  position: static;
+}
+
 .relative {
   position: relative;
 }
@@ -608,8 +612,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.contents {
+  display: contents;
 }
 
 .h-6 {
@@ -654,6 +666,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 768px;
 }
 
+.-translate-x-4 {
+  --tw-translate-x: -1rem;
+  transform: var(--tw-transform);
+}
+
+.-translate-y-4 {
+  --tw-translate-y: -1rem;
+  transform: var(--tw-transform);
+}
+
 .translate-x-4 {
   --tw-translate-x: 1rem;
   transform: var(--tw-transform);
@@ -664,13 +686,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: var(--tw-transform);
 }
 
-.-translate-x-4 {
-  --tw-translate-x: -1rem;
-  transform: var(--tw-transform);
-}
-
-.-translate-y-4 {
-  --tw-translate-y: -1rem;
+.transform {
   transform: var(--tw-transform);
 }
 
@@ -1054,12 +1070,12 @@ section {
     margin-top: 6rem;
   }
 
-  .md\:h-auto {
-    height: auto;
-  }
-
   .md\:h-full {
     height: 100%;
+  }
+
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:w-5\/12 {
